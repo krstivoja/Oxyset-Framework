@@ -1,41 +1,35 @@
-$sp-small: (
-	mobile		: mob,
-	tablet		: tab,
-	laptop		: lap,
-	desktop		: desk
+$sp-base: (
+	null		: 40px,
+	desk		: 30px,
+	tab			: 20px,	
+	mob	    	: 15px,
+	mob_s		: 10px
 );
 
-// $sp-small: 	8px;
-// $sp-base: 	16px;
-// $sp-big: 	32px;
-// $sp-large: 	64px;
+
+$sp-small: (
+	null		: 40px,
+	desk		: 30px,
+	tab			: 20px,	
+	mob	    	: 15px,
+	mob_s		: 10px
+);
 
 
-// $sp-small: 	8px;
-// $sp-base: 	16px;
-// $sp-big: 	32px;
-// $sp-large: 	64px;
+
+$sp-big: (
+	null		: 40px,
+	desk		: 30px,
+	tab			: 20px,	
+	mob	    	: 15px,
+	mob_s		: 10px
+);
 
 
-// /*========================================
-// =            Space for tablet            =
-// ========================================*/
-
-// @media screen and (min-width: 750px){
-// 	$sp-small: 	8px;
-// 	$sp-base: 	16px;
-// 	$sp-big: 	32px;
-// 	$sp-large: 	64px;	
-// }
-
-
-// /*========================================
-// =            Space for mobile            =
-// ========================================*/
-
-// @media screen and (min-width: 750px){
-// 	$sp-small: 	8px;
-// 	$sp-base: 	16px;
-// 	$sp-big: 	32px;
-// 	$sp-large: 	64px;	
-// }
+$sp-large: (
+	null		: 40px,
+	desk		: 30px,
+	tab			: 20px,	
+	mob	    	: 15px,
+	mob_s		: 10px
+);
