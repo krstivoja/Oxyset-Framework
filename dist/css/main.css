@@ -1,1 +1,8 @@
-
+.col {
+  padding: 10px;
+}
+@media (max-width: 1680px) {
+  .col {
+    padding: 20px;
+  }
+}
