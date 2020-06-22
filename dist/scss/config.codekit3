@@ -22,6 +22,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/_01_layout/_background.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_01_layout/_background.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/_01_layout/_column.scss": {
 		"aP": 0,
 		"bl": 0,
