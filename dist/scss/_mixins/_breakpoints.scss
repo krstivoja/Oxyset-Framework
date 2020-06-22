@@ -1,0 +1,11 @@
+@mixin break($key, $value: $breakpoints) {
+  // If $key is a key that exists in
+  // $value, get and use the value
+  @if map-has-key($value, $key) {
+    $key: map-get($value, $key);
+  }
+  
+  @media screen and (min-width: #{$key}) {
+    @content;
+  }
+}
