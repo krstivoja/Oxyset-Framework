@@ -22,20 +22,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/_00_typography/empty.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_00_typography/empty.css",
-		"oF": 1,
-		"oS": 0,
-		"sct": 0
-		},
-	"/_01_layout/_columns.scss": {
+	"/_01_layout/_column.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -43,7 +30,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_01_layout/_columns.css",
+		"oAP": "/_01_layout/_column.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -140,27 +127,17 @@
 		"sct": 0
 		},
 	"/main.scss": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "/Users/marko/Dropbox/Work/Code/oxyset_framework/dist/css/main.css",
 		"oF": 6,
 		"oS": 0,
 		"sct": 0
-		},
-	"/test.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/test-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/test.scss": {
 		"aP": 0,

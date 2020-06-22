@@ -1,3 +1,9 @@
+// ----
+// Sass (vundefined)
+// Compass (vundefined)
+// dart-sass (v1.18.0)
+// ----
+
 //  Breakpoints
 $breakpoints: (
 	tab		: 1200px,
@@ -15,7 +21,7 @@ $sp-base: (
 
 
 $sp-big: (
-  null    : 40px,
+  null    : 80px,
   tab     : 20px, 
   mob     : 15px,
   mob_s   : 10px
@@ -23,25 +29,25 @@ $sp-big: (
 
 
 $sp-large: (
-  null    : 40px,
+  null    : 120px,
   tab     : 20px, 
   mob     : 15px,
   mob_s   : 10px
 );
 
-
-
-@each $key, $value in $sp-base{
-	@if $key == null
+@each $space, $padding in $sp-base, $sp-big, $sp-large{
+	@if $space == null
 		{
-			%column-padding 	{	padding:map-get($sp-base, null);	}
+			%column-padding 	{	    padding:map-get($sp-base, null);	}
+			%column-padding-big 	{	padding:map-get($sp-big, null);	}
+			%column-padding-large 	{	padding:map-get($sp-large, null);	}
 		}
 	@else
 		{
-			$break: map-get($breakpoints, $key);
+			$break: map-get($breakpoints, $space);
 			
 				@media(max-width:$break){	
-					%column-padding {	padding: $value;	}
+					//%column-padding {	padding: $padding;	}
 				}
 		}
 }
@@ -51,11 +57,9 @@ $sp-large: (
 }
 
 .col-big{
-	//@extend %column-padding-big;
+	@extend %column-padding-big;
 }
 
 .col-large{
-	//@extend %column-padding-large;
-	
+	@extend %column-padding-large;
 }
-

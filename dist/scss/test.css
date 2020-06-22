@@ -1,19 +1,15 @@
-.col {
-  padding: 40px;
-}
-
-@media (max-width: 1200px) {
+@media (max-width: ) {
   .col {
-    padding: 20px;
+    padding: tab 20px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: ) {
   .col {
-    padding: 15px;
+    padding: tab 20px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: ) {
   .col {
-    padding: 10px;
+    padding: tab 20px;
   }
 }

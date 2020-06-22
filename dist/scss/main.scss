@@ -1,31 +1,14 @@
 // Settings
-//@import '_settings.scss';
+@import '_settings.scss';
 
 
 // Mixins
 
-
-
-
-
+// Typography
+@import '_00_typography/_typography.scss';
 
 // Layout
+@import '_01_layout/_section.scss';
+@import '_01_layout/_container.scss';
+@import '_01_layout/_column.scss';
 
-//@import '_01_layout/_columns.scss';
-
-// @for $i from 1 through $number-of-colums {
-
-//     .column-#{$i} { 
-// 			width: 100% / $number-of-colums * $i;  
-//     }
-
-// }
-
-$base-font-size: 10px;
-$heading-scale: 1.5; // amount of px headings grow from h6 to h1
-
-@for $i from 1 through 6 {
-  h#{$i} {
-    font-size: $base-font-size + $heading-scale * (6 - $i);
-  }
-}

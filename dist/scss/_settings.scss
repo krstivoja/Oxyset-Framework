@@ -19,8 +19,6 @@ $alert:       #111111;
 $info:        #111111;
 
 
-
-
 //  Breakpoints
 $breakpoints: (
 	tab		: 1200px,
@@ -54,10 +52,25 @@ $sp-large: (
 
 // Max width
 $max-1: 1200px; //Used for container 
-$max-2: 800px; //Used for container narrow
-$max-3: 600px; //Used for smaller elements 
+$max-2: 800px;  //Used for container narrow
+$max-3: 600px;  //Used for smaller elements 
 
 //  Typography
 
+$ratio: (
+null  : 1.4,
+tab   : 1.3,
+mob   : 1.2,
+mob_s : 1.1
+);
+
+$body: (
+null  : 16px,
+tab   : 16px,
+mob   : 16px,
+mob_s : 14px
+);
+
+$tags:p,h6,h5,h4,h3,h2,h1;
 
 
