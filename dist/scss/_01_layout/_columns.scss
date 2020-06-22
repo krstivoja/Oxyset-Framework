@@ -1,5 +1,59 @@
-// @each $name, $size in $sp-base {
-//   .col#{$name} {
-//   	padding: $size;
-//   }
-// }
+@each $space, $padding in $sp-base{
+	@if $space == null
+		{
+			%column-padding 	{	padding:map-get($sp-base, null);	}
+		}
+	@else
+		{
+			$break: map-get($breakpoints, $space);
+			
+				@media(max-width:$break){	
+					%column-padding {	padding: $padding;	}
+				}
+		}
+}
+
+.col{
+	@extend %column-padding;
+}
+
+
+@each $space, $padding in $sp-big{
+	@if $space == null
+		{
+			%column-padding-big 	{	padding:map-get($sp-big, null);	}
+		}
+	@else
+		{
+			$break: map-get($breakpoints, $space);
+			
+				@media(max-width:$break){	
+					%column-padding-big {	padding: $padding;	}
+				}
+		}
+}
+
+.col-big{
+	@extend %column-padding-big;
+}
+
+
+
+@each $space, $padding in $sp-large{
+	@if $space == null
+		{
+			%column-padding-large 	{	padding:map-get($sp-large, null);	}
+		}
+	@else
+		{
+			$break: map-get($breakpoints, $space);
+			
+				@media(max-width:$break){	
+					%column-padding-large {	padding: $padding;	}
+				}
+		}
+}
+
+.col-large{
+	@extend %column-padding-large;
+}

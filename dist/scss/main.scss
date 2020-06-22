@@ -1,8 +1,5 @@
 // Settings
-@import '___settings/_colors.scss';
-@import '___settings/_sizes.scss';
-@import '___settings/_breakpoints.scss';
-
+//@import '_settings.scss';
 
 
 // Mixins
@@ -14,7 +11,7 @@
 
 // Layout
 
-@import '_01_layout/_columns.scss';
+//@import '_01_layout/_columns.scss';
 
 // @for $i from 1 through $number-of-colums {
 
@@ -23,3 +20,12 @@
 //     }
 
 // }
+
+$base-font-size: 10px;
+$heading-scale: 1.5; // amount of px headings grow from h6 to h1
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $base-font-size + $heading-scale * (6 - $i);
+  }
+}
