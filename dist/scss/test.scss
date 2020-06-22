@@ -1,0 +1,59 @@
+//  Breakpoints
+$breakpoints: (
+	tab		: 1200px,
+	mob		: 800px,
+	mob_s : 320px
+);
+
+//  Sizes
+$sp-base: (
+  null    : 40px,
+  tab     : 20px, 
+  mob     : 15px,
+  mob_s   : 10px
+);
+
+
+$sp-big: (
+  null    : 40px,
+  tab     : 20px, 
+  mob     : 15px,
+  mob_s   : 10px
+);
+
+
+$sp-large: (
+  null    : 40px,
+  tab     : 20px, 
+  mob     : 15px,
+  mob_s   : 10px
+);
+
+
+
+@each $key, $value in $sp-base{
+	@if $key == null
+		{
+			%column-padding 	{	padding:map-get($sp-base, null);	}
+		}
+	@else
+		{
+			$break: map-get($breakpoints, $key);
+			
+				@media(max-width:$break){	
+					%column-padding {	padding: $value;	}
+				}
+		}
+}
+
+.col{
+	@extend %column-padding;
+}
+
+.col-big{
+	//@extend %column-padding-big;
+}
+
+.col-large{
+	//@extend %column-padding-large;
+}

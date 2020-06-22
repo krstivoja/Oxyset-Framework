@@ -1,0 +1,11 @@
+.container{
+	width: 100%;
+	max-width: $max-1;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container-narrow{
+  @extend .container;
+  max-width: $max-2;
+}

@@ -1,35 +1,26 @@
-$sp-base: (
-	null		: 40px,
-	desk		: 30px,
-	tab			: 20px,	
-	mob	    	: 15px,
-	mob_s		: 10px
+//  Breakpoints
+$breakpoints: (
+	tab		: 1200px,
+	mob		: 800px,
+	mob_s : 320px
 );
 
 
-$sp-small: (
-	null		: 40px,
-	desk		: 30px,
-	tab			: 20px,	
-	mob	    	: 15px,
-	mob_s		: 10px
+$ratio: (
+	null    : 1.6,
+	tab		: 1.5,
+	mob		: 1.3,
+	mob_s 	: 1.1
 );
 
 
-
-$sp-big: (
-	null		: 40px,
-	desk		: 30px,
-	tab			: 20px,	
-	mob	    	: 15px,
-	mob_s		: 10px
+$body: (
+	null    : 16px,
+	tab		: 16px,
+	mob		: 16px,
+	mob_s 	: 14px
 );
 
 
-$sp-large: (
-	null		: 40px,
-	desk		: 30px,
-	tab			: 20px,	
-	mob	    	: 15px,
-	mob_s		: 10px
-);
+Loop true 
+p, h1, h2, h4, h5, h6 with breakpoints

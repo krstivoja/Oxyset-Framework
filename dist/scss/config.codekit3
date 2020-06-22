@@ -35,7 +35,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/_01_layout/_empty.scss": {
+	"/_01_layout/_container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -43,12 +43,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_01_layout/_empty.css",
+		"oAP": "/_01_layout/_container.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/_01_layout/_sections.scss": {
+	"/_01_layout/_section.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -56,7 +56,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_01_layout/_sections.css",
+		"oAP": "/_01_layout/_section.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -100,7 +100,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/___settings/_breakpoints.scss": {
+	"/_mixins/_empty.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -108,12 +108,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/___settings/_breakpoints.css",
+		"oAP": "/_mixins/_empty.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/___settings/_colors.scss": {
+	"/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -121,56 +121,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/___settings/_colors.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/___settings/_sizes.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/___settings/_sizes.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/___settings/_test.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/___settings/_test-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/___settings/test.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/___settings/test.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/__mixins/_empty.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/__mixins/_empty.css",
+		"oAP": "/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -185,6 +136,29 @@
 		"oA": 0,
 		"oAP": "/Users/marko/Dropbox/Work/Code/oxyset_framework/dist/css/main.css",
 		"oF": 6,
+		"oS": 0,
+		"sct": 0
+		},
+	"/test.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/test-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/test.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/test.css",
+		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		}
