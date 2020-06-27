@@ -1,0 +1,75 @@
+$colors: (
+
+  null:         #111111, 
+  light:        #FFED84,
+  dark:         #111111,
+
+  text:        #111111,
+  text_light:  #111111,
+  text_dark:   #111111,
+
+  brand:       #111111,
+
+  action:      #111111,
+
+  alert:       #111111,
+  info:        #111111
+
+);
+
+
+//  Breakpoints
+$breakpoints: (
+	tab		: 1200px,
+	mob		: 800px,
+	mob_s : 320px
+);
+
+//  Sizes
+$sp-base: (
+  null  : 40px,
+  tab   : 20px,
+  mob   : 15px,
+  mob_s : 10px
+);
+
+
+$sp-big: (
+  null  : 80px,
+  tab   : 40px,
+  mob   : 30px,
+  mob_s : 20px
+);
+
+
+$sp-large: (
+  null  : 120px,
+  tab   : 90px,
+  mob   : 45px,
+  mob_s : 30px
+);
+
+// Max width
+$max-1  : 1200px; //Used for container 
+$max-2  : 800px;  //Used for container narrow
+$max-3  : 600px;  //Used for smaller elements 
+
+//  Typography
+
+$ratio: (
+null  : 1.4,
+tab   : 1.3,
+mob   : 1.2,
+mob_s : 1.1
+);
+
+$body: (
+null  : 16px,
+tab   : 16px,
+mob   : 16px,
+mob_s : 14px
+);
+
+$tags:p,h6,h5,h4,h3,h2,h1;
+
+

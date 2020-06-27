@@ -1,0 +1,15 @@
+@each $key, $value in $colors {
+    @if $key == null
+    {
+        .btn{
+            background-color: $value;
+            color: check-text-color-contrast($value);
+        }    
+    }
+    @else{
+        .btn-#{$key} {
+            background-color: $value;
+            color: check-text-color-contrast($value);
+        }
+    }
+}

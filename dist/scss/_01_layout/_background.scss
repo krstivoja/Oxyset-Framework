@@ -1,10 +1,15 @@
-.bg{background-color: #bg;}
-.bg-light{background-color: #bg-light;}
-.bg-dark{background-color: #bg-dark;}
-.bg-text{background-color: #text;}
-.bg-text-light{background-color: #text-light;}
-.bg-text-dark{background-color: #text-dark;}
-.bg-brand{background-color: #brand;}
-.bg-action{background-color: #action;}
-.bg-alert{background-color: #alert;}
-.bg-info{background-color: #info;}
+@each $key, $value in $colors {
+    @if $key == null
+    {
+        .bg{
+            background-color: $value;
+            color: check-text-color-contrast($value);
+        }    
+    }
+    @else{
+        .bg-#{$key} {
+            background-color: $value;
+            color: check-text-color-contrast($value);
+        }
+    }
+}
