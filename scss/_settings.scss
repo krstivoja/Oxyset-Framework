@@ -1,0 +1,74 @@
+$modularscale: (
+  base          :   1px,
+  ratio         :   1,
+    
+    // Space
+    msspace: (
+        base    :   10px,
+        ratio   :   1.2
+    ),
+    
+    // Typography
+    mstypo:(
+        base    :   15px,
+        ratio   :   1.2
+    ),
+
+    mstypotablet:(
+        base    :   10px,
+        ratio   :   1.5
+    ),
+
+    mstypomobile:(
+        base    :   15px,
+        ratio   :   1.2
+    ),
+
+);
+
+$breakp: (
+    xlg     :   1400px,
+    lg      :   1200px,
+    md      :   900px,
+    sm      :   600px,
+    xs      :   300px    
+);
+
+$space:
+    xs      , 
+    sm      , 
+    md      , 
+    lg      , 
+    xlg     ;
+
+$colors:(
+    pri     :   red,
+    sec     :   green,
+    bg      :   light-grey,
+    bg2     :   grey,
+    text    :   grey,
+    text2   :   grey,
+);
+
+$typo: 
+    body    ,
+    p       ,
+    h4      ,
+    h3      ,
+    h2      ,
+    h1      ;
+
+$container: 1400px;
+$container-na: 800px;
+$container-fw: 100%;
+
+$col-no: 12;
+
+
+
+
+
+
+
+
+

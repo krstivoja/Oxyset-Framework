@@ -1,0 +1,47 @@
+.pri {
+  background-color: red;
+}
+
+.sec {
+  background-color: green;
+}
+
+.bg {
+  background-color: light-grey;
+}
+
+.bg2 {
+  background-color: grey;
+}
+
+.text {
+  background-color: grey;
+}
+
+.text2 {
+  background-color: grey;
+}
+
+.text-pri {
+  background-color: red;
+}
+
+.text-sec {
+  background-color: green;
+}
+
+.text-bg {
+  background-color: light-grey;
+}
+
+.text-bg2 {
+  background-color: grey;
+}
+
+.text-text {
+  background-color: grey;
+}
+
+.text-text2 {
+  background-color: grey;
+}

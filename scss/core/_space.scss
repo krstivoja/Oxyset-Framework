@@ -1,0 +1,49 @@
+$s: 0;
+@each $spc in $space {
+        .#{$spc}-p {		padding 		: round(ms($s, $thread: msspace));	}
+			$s: $s + 1;
+		
+		.#{$spc}-p-top {	padding-top 	: round(ms($s, $thread: msspace));	}
+			$s: $s + 1;
+
+		.#{$spc}-p-bottom {	padding-bottom 	: round(ms($s, $thread: msspace));	}
+			$s: $s + 1;
+		
+		.#{$spc}-m {		margin			: round(ms($s, $thread: msspace));	}
+			$s: $s + 1;
+		
+		.#{$spc}-m-top {	margin-top 		: round(ms($s, $thread: msspace));	}
+			$s: $s + 1;
+
+		.#{$spc}-m-bottom {	margin-bottom 	: round(ms($s, $thread: msspace));	}
+			$s: $s + 1;		
+}
+
+
+// @each $name, $size in $breakp {
+  
+//   	@media (max-width: #{$size}){
+
+// 			$s: 0;
+// 			@each $spc in $space {
+// 			        .#{$spc}-p:#{$name} {		padding 		: round(ms($s, $thread: msspace));	}
+// 						$s: $s + 1;
+					
+// 					.#{$spc}-p-top:#{$name} {	padding-top 	: round(ms($s, $thread: msspace));	}
+// 						$s: $s + 1;
+
+// 					.#{$spc}-p-bottom:#{$name} {	padding-bottom 	: round(ms($s, $thread: msspace));	}
+// 						$s: $s + 1;
+					
+// 					.#{$spc}-m:#{$name} {		margin			: round(ms($s, $thread: msspace));	}
+// 						$s: $s + 1;
+					
+// 					.#{$spc}-m-top:#{$name} {	margin-top 		: round(ms($s, $thread: msspace));	}
+// 						$s: $s + 1;
+
+// 					.#{$spc}-m-bottom:#{$name} {	margin-bottom 	: round(ms($s, $thread: msspace));	}
+// 						$s: $s + 1;		
+// 			}
+
+//   	}  // End of break point
+// }

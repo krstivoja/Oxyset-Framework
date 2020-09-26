@@ -1,0 +1,22 @@
+$typography: 0;
+@each $typ in $typo {
+        #{$typ}  {
+                    font-size: ms($typography, $thread: mstypo);
+                }
+
+                $typography: $typography + 1;
+}
+
+
+// @media screen and (min-width: 480px) {
+
+// 	$typography: 0;
+// 	@each $typ in $typo {
+// 	        #{$typ}  {
+// 	                    font-size: ms($typography, $thread: mstypotablet);
+// 	                }
+
+// 	                $typography: $typography + 1;
+// 	}
+
+// }

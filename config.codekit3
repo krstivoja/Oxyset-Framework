@@ -4,137 +4,507 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "7490C92F-CD01-4D4D-A2B5-4844229981D5"
+		"uuidString": "0CBEEF24-4B12-416E-8C7D-5615FB9DF401"
 		}
 	],
 "creatorBuild": "32186",
 "files": {
-	"/dist/css/main.css": {
+	"/css/style-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dist/css/main-min.css",
+		"oAP": "/css/style-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/dist/scss/_00_typography/_empty.scss": {
-		"aP": 0,
+	"/css/style.css": {
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_00_typography/_empty.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/_01_layout/_columns.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_01_layout/_columns.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/_01_layout/_sections.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_01_layout/_sections.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/_02_elements/_empty.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_02_elements/_empty.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/_03_compotents/_empty.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_03_compotents/_empty.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/_04_templates/_empty.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_04_templates/_empty.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/_mixins/_empty.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_mixins/_empty.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dist/scss/_settings.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dist/scss/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
+		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dist/css/main.css",
-		"oF": 2,
+		"oAP": "/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/style.css.map",
+		"oF": 0
+		},
+	"/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/footer.php",
+		"oF": 0
+		},
+	"/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header.php",
+		"oF": 0
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/lib/modularscale/_modularscale.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/_modularscale.css",
+		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_function.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_function.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_pow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_pow.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_respond.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_respond.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_round-px.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_round-px.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_sort.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_sort.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_strip-units.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_strip-units.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_sugar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_sugar.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_target.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_target.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/modularscale/modularscale/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/modularscale/modularscale/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/lib/scssphp/bin/pscss": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/bin/pscss",
+		"oF": 0
+		},
+	"/lib/scssphp/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/lib/scssphp/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/lib/scssphp/LICENSE.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/LICENSE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/lib/scssphp/phpcs.xml.dist": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/phpcs.xml.dist",
+		"oF": 0
+		},
+	"/lib/scssphp/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/lib/scssphp/scss.inc.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/scss.inc.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Base/Range.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Base/Range.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Block.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Block.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Cache.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Cache.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Colors.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Colors.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Compiler.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Compiler.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Compiler/Environment.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Compiler/Environment.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Exception/CompilerException.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Exception/CompilerException.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Exception/ParserException.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Exception/ParserException.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Exception/RangeException.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Exception/RangeException.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Exception/SassException.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Exception/SassException.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Exception/ServerException.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Exception/ServerException.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter/Compact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter/Compact.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter/Compressed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter/Compressed.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter/Crunched.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter/Crunched.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter/Debug.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter/Debug.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter/Expanded.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter/Expanded.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter/Nested.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter/Nested.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Formatter/OutputBlock.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Formatter/OutputBlock.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Node.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Node.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Node/Number.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Node/Number.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Parser.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Parser.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/SourceMap/Base64.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/SourceMap/Base64.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/SourceMap/Base64VLQ.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/SourceMap/Base64VLQ.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/SourceMap/SourceMapGenerator.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/SourceMap/SourceMapGenerator.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Type.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Type.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Util.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Util.php",
+		"oF": 0
+		},
+	"/lib/scssphp/src/Version.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/scssphp/src/Version.php",
+		"oF": 0
+		},
+	"/plugin index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/plugin index.php",
+		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
@@ -154,6 +524,159 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/scss/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/core/_borders.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/core/_borders.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/core/_breakpoints.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/core/_breakpoints.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/core/_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/core/_colors.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/core/_space.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/core/_space.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/core/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/core/_typography.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/layout/_columns.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layout/_columns.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/layout/_container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layout/_container.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/style.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/style.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/test.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/test-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/test.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/test.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		}
 	},
 "hooks": [
@@ -161,16 +684,16 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 614458213.42091095,
-	"displayValue": "oxyset_framework",
+	"creationDate": 622486919.41823399,
+	"displayValue": "public",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-brick",
+	"iconImageName": "brackets_purple",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"allowInjectionReloads": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -1679,7 +2202,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888",
+	"externalServerAddress": "http://scssphp.local/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

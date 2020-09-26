@@ -1,0 +1,20 @@
+$colors:(
+    pri     :   red,
+    sec     :   green,
+    bg      :   light-grey,
+    bg2     :   grey,
+    text    :   grey,
+    text2   :   grey,
+);
+
+@each $name, $value in $colors {
+  .#{$name} {
+    background-color: $value;
+  }
+}
+
+@each $name, $value in $colors {
+  .text-#{$name} {
+    background-color: $value;
+  }
+}

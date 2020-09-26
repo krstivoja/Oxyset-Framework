@@ -1,0 +1,19 @@
+@for $i from 1 through $col-no {
+    .col-#{$i} { 
+			width: 100% / $col-no * $i;  
+    }
+
+}
+
+@each $name, $size in $breakp {
+  
+  	@media (max-width: #{$size}){
+
+  		@for $i from 1 through $col-no {
+		    .col-#{$i}:#{$name}  { 
+					width: 100% / $col-no * $i;  
+		    }
+		}
+
+  	}
+}

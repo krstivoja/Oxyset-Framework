@@ -1,0 +1,45 @@
+// :root {
+//     --space:    20px;
+//     --space-2:  40px;
+// }
+
+// @media screen and (max-width: 800px) {
+//     :root {
+//         --space:    10px;
+//         --space-2:  20px;
+//     }
+// }
+
+// .container{
+//     border: 10px solid white;
+
+//     max-width: 600px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .wrap{
+//     --gap: var(--space);
+//     width: calc(100% + var(--gap));
+//     margin: auto;
+
+//     display: flex;
+//     flex-wrap: wrap;
+
+//     margin-bottom: calc(-1 * var(--gap));
+//     margin-left: calc(-1 * var(--gap));  
+
+// }
+
+// .wrap>*{
+//         margin-bottom: var(--gap);
+//         margin-left: var(--gap);
+// }  
+
+// .col{
+
+//     padding: 20px;
+//     background-color: red;
+
+//     width: calc(33.3333% - var(--gap));
+// }
